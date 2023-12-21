@@ -1,6 +1,7 @@
 import { fireEvent, screen, render } from "@testing-library/react";
-import { RandomUser } from "components/RandomUser/RandomUser";
+import { RandomUser } from "component/RandomUser/RandomUser";
 import axios from "axios";
+import * as jest from "node/test";
 jest.mock("axios");
 
 describe("<RandomUser/>", () => {
