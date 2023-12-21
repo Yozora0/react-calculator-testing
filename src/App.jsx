@@ -4,8 +4,8 @@ import s from "./App.module.css";
 export function App() {
   return (
       <div className={s.root}>
-        {/* <Calculator defaultA={5} defaultB={5} defaultOperator={"x"} /> */}
-        <RandomUser />
+         <Calculator defaultA={5} defaultB={5} defaultOperator={"x"} />
+          {/*<RandomUser />*/}
       </div>
   );
 }
