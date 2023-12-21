@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { Calculator } from "components/Calculator/Calculator";
+import { Calculator } from "component/Calculator/Calculator";
 const { getValueA, getValueB, getResult, getOperator } = getCalculator();
 
 function getCalculator() {
